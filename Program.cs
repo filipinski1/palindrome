@@ -11,6 +11,7 @@ namespace palindrome
                 Console.WriteLine("Please enter  a string");
                 string input = Console.ReadLine();
                 string reverse = string.Empty;
+
                 int lenght = input.Length - 1;
                 while (lenght >= 0)
                 {
